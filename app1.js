@@ -41,7 +41,6 @@ function credit(){
   console.clear();
     credit();
 
-// You must wrap a tiny-secp256k1 compatible implementation
 const bip32 = BIP32Factory(ecc);
 
 let addresses;
