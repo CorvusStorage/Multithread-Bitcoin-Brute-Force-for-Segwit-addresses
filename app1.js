@@ -46,7 +46,6 @@ const bip32 = BIP32Factory(ecc);
 let addresses;
 addresses = new Set();
 
-// Reading data from a file named 'data.txt'
 const data = fs.readFileSync('./data.txt');
 // Splitting the data by new line and adding each address to the Set
 data.toString().split("\n").forEach(address => addresses.add(address));
