@@ -29,7 +29,6 @@ function credit(){
   console.log("Buy me a coffee: https://www.buymeacoffee.com/CorvusCodex");
   console.log("Buy standalone Windows app: https://ko-fi.com/s/36307ffb03");
   console.log("=================================================================");
-
 };
 
 console.clear();
